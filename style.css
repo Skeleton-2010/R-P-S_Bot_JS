@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.main {
+  width: 90vw;
+  height: 100vh;
+  display: flex;
+  margin: a;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  background-color: #000;
+}
+
+button {
+  background-color: #000;
+  border: 2px solid #fff;
+  transition: 0.2s;
+}
+
+.gameInterface {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 110%;
+}
+
+.computerBotImg {
+  height: 320px;
+  image-rendering: pixelated;
+}
+
+.itemRPS {
+  height: 6;
+  image-rendering: pixelated;
+}
